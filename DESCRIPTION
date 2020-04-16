@@ -1,0 +1,17 @@
+Package: rcotoha
+Title: rcotoha: R for COTOHA API
+Version: 0.0.0.9000
+Authors@R: 
+    person("ocean-v",
+           role = c("aut", "cre"),
+           email = "vco123-gghub333@yahoo.co.jp")
+Description: Wrapper functions for using COTOHA API from R. COTOHA API is a natural language processing API by NTT Comunnications(https://api.ce-cotoha.com/contents/about-cotoha.html).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Imports: 
+    jsonlite,
+    httr,
+    dplyr
