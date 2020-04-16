@@ -1,9 +1,9 @@
 #' Execute COTOHA analysis
 #'
 #' @param access_token Access token gotten by `get_cotoha_token` (character)
-#' @param API API name (character): "parse", "ne", "coreference", "keyword", "similarity", "sentence_type", "user_attribute", "sentiment". See https://api.ce-cotoha.com/contents/reference/apireference.html.
+#' @param API API name (character): "parse", "ne", "coreference", "keyword", "similarity", "sentence_type", "sentiment". See https://api.ce-cotoha.com/contents/reference/apireference.html.
 #' @param sentence For "parse", "ne", "sentence_type", "sentiment" (character)
-#' @param document For "coreference", "keyword", "user_attribute" (character)
+#' @param document For "coreference", "keyword" (character)
 #' @param s1 For "similarity" (character)
 #' @param s2 For "similarity" (character)
 #' @param optional Additional argument for each API (list). See https://api.ce-cotoha.com/contents/reference/apireference.html.

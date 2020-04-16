@@ -17,11 +17,11 @@ execute_cotoha_analysis(
 \arguments{
 \item{access_token}{Access token gotten by \code{get_cotoha_token} (character)}
 
-\item{API}{API name (character): "parse", "ne", "coreference", "keyword", "similarity", "sentence_type", "user_attribute", "sentiment". See https://api.ce-cotoha.com/contents/reference/apireference.html.}
+\item{API}{API name (character): "parse", "ne", "coreference", "keyword", "similarity", "sentence_type", "sentiment". See https://api.ce-cotoha.com/contents/reference/apireference.html.}
 
 \item{sentence}{For "parse", "ne", "sentence_type", "sentiment" (character)}
 
-\item{document}{For "coreference", "keyword", "user_attribute" (character)}
+\item{document}{For "coreference", "keyword" (character)}
 
 \item{s1}{For "similarity" (character)}
 
