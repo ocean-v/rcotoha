@@ -108,4 +108,4 @@ Mainly for Named entity extraction 固有表現抽出 & Keyword extraction キ�
 cotoha_as_df(response = [your response])
 ```
 
-
+Otherwise, you can extract the result as a list from the response by `httr::content`.
